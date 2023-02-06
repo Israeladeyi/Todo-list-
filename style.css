@@ -1,0 +1,181 @@
+*{
+ box-sizing:border-box;
+ padding:0;
+ margin:0;
+ list-style:none;
+}
+.container{
+
+ margin-top:1rem;
+}
+.top{
+ display:flex;
+ align-items:Center;
+ justify-content:space-between;
+ padding:10px;
+}
+.time{
+ display:flex;
+ align-items:Center;
+ justify-content:Center;
+}
+.time h1{
+ font-size:40px;
+}
+.time h3{
+ font-size:12px;
+ color:#767676;
+}
+.content span{
+ display:flex;
+ align-items:Center;
+ justify-content:Center;
+ margin-top:15rem;
+ color:#767676;
+}
+.bottom{
+ display:flex;
+ align-items:Center;
+ justify-content:Center;
+background:#20C63F;
+padding:40px;
+border-radius:50%;
+ width:30px;
+ height:30px;
+ margin-left:9rem;
+ position:fixed;
+ bottom:0;
+ margin-bottom:1em;
+ box-shadow: 0 0 10px #20C63F;
+ transition:all 400ms ease;
+}
+.bottom:hover{
+ box-shadow:none;
+}
+.bottom i{
+ font-size:25px;
+ color:white;
+}
+.day h2{
+ font-weight:500;
+ font-size:20px;
+}
+.content{
+
+ margin-top:3rem;
+}
+
+ li{
+ display:flex;
+ align-items:Center;
+ justify-content:space-between;
+ padding:10px;
+}
+
+.main{
+   width:100%;
+ background: rgba(0, 0, 0, 1);
+ display:none;
+  position:absolute;
+  margin-top:7rem;
+  z-index:99;
+transition:all 300ms ease ;
+}
+.bg input{
+ height:50px;
+ width:90%;
+ outline:none;
+ border:none;
+ border-radius:5px;
+margin-top:5rem;
+margin-left:1rem;
+padding-left:1rem;
+}
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  #save{
+   background: #39AE00;
+   box-shadow: 0 0 5px #39AE00;
+  }
+  #save:hover{
+   box-shadow:none;
+  }
+  #cancel{
+   background:#FF0101;
+   box-shadow:0 0 5px #FF0101;
+  }
+  #cancel:hover{
+   box-shadow:none;
+  }
+  input[type="text"]::placeholder{
+   padding-left:1rem;
+   color:#FF0101;
+  }
+  .todo-item {
+
+    padding: 0 0.5rem;
+
+}
+
+.todo{
+    margin: 0.5rem;
+
+    background:#9D9D9D;
+padding:5px;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.delete-btn,
+
+.complete-btn {
+
+    background: #FF0000;
+    cursor: pointer;
+    font-size: 1rem;
+    padding:.5rem;
+    color: white;
+    border: none;
+}
+
+.complete-btn {
+    background: rgb(73, 204, 73);
+position:absolute;
+margin-left:17rem;
+z-index:1;
+ 
+}
+
+.completed{
+ text-decoration: line-through;
+ opacity:0.5;
+}
+.fall {
+
+    transform: translateY(8rem) rotateZ(20deg);
+
+    opacity: 0;
+}
+i{
+ pointer-events: none;
+
+ }
+
+h1{
+ text-align: Center;
+}

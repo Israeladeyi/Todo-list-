@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Adeyi Todo</title>
+
+ <!-- HTML -->
+
+
+ <!-- Custom Styles -->
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+ <div class="container" id="container">
+  <h1>Adeyi Todo</h1>
+  <div class="top">
+   <div class="time">
+    <h1 id="day"></h1>
+    <div class="month-year">
+     <h3 id="month"></h3>
+     <h3 id="year"></h3>
+    </div>
+   </div>
+   <div class="day">
+    <h2 id="day-text"></h2>
+   </div>
+  </div>
+  <div class="bottom" id="bottom">
+
+   <i class="fa-solid fa-plus"></i>
+  </div>
+  <div class="main" id="main">
+   <div class="bg">
+
+    <input type="text" placeholder="Enter your schedule" min="10" max="100" id="input">
+   </div>
+
+   <div class="btn">
+    <button class="button" id="cancel">Cancel</button>
+    <button class="button" id="save" type="submit">Save</button>
+   </div>
+  </div>
+  <ul class="todo-list">
+  </ul>
+ </div>
+ <script src="main.js"></script>
+</body>
+
+</html>
